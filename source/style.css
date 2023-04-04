@@ -8,6 +8,7 @@
 }
 body{
     background-color: rgb(21, 21, 21);
+    overflow-x: hidden;
 }
 /* NAVEGATION BAR */
 nav{
@@ -90,7 +91,7 @@ div.second{
     position: absolute;
     color: white;
     top: 150vh;
-    height: 250vh;
+    height: 290vh;
     padding-top: 2%;
     background-color: rgb(230, 230, 230);
 }
@@ -151,8 +152,8 @@ div.secondinfo{
 
 /* footer */
 footer{
-    top: 290vh;
-    height: 30vh;
+    top: 310vh;
+    height: 10vh;
     width: 100%;
     position: relative;
     background-color: black;
