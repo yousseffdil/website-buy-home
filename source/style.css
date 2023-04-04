@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+body{
+    background-color: rgb(21, 21, 21);
+}
+/* NAVEGATION BAR */
+nav{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-family: 'Inter', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+}
+nav ul li{
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 1%;
+    transition: 1s;
+    cursor: pointer;
+}
+nav ul li:hover{
+    border-bottom: 1px solid white;
+}
+nav h2{
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+span{
+    position: relative;
+    left: 70px;
+}
+
+/* HEADER AND INFO */
+.info{
+    position: absolute;
+    top: 12vw;
+    margin-left: 5%;
+    padding: 2%;
+    color: white;
+    background-color: black;
+    width: 55%;
+    height: 70vh;
+}
+.info h1{
+    font-weight: bold;
+
+}
+.info p{
+    padding-top: 2%;
+    width: 90%;
+
+}
+.header img.headImg{
+    margin-top: 3vw;
+    width: 33%;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+}
+button{
+    position: relative;
+    outline: none;
+    border: none;
+    padding: 1%;
+    width: 20%;
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: bold;
+}
+.info button{
+
+    margin-top:35vh;
+
+}
+/* SECOND DIV */
+div.second{
+    position: absolute;
+    color: white;
+    top: 150vh;
+    height: 250vh;
+    padding-top: 2%;
+    background-color: rgb(230, 230, 230);
+}
+div.secondinfo{
+    text-align: right;
+    float: right;
+    padding: 2%;
+    width: 36%;
+    margin-top: 4%;
+    height: 70vh;
+    margin-right: 5%;
+    background-color: black;
+}
+.secondinfo button{
+    text-align: left;
+    width: 30%;
+    margin-top:30vh;
+}
+.secondimg img{
+    position: absolute;
+    width: 50%;
+    margin-left: 5%;
+}
+.secondinfo p{
+    padding-top: 2%;
+}
+/* third div */
+.third{
+    color: black;
+    position: relative;
+    top: 120vh;
+    width: 100%;
+}
+.thirdinfo{
+    position: absolute;
+    top: 3vw;
+    margin-left: 5%;
+    padding: 2%;
+    color: white;
+    background-color: black;
+    width: 55%;
+    height: 70vh;
+}
+.thirdinfo p{
+    width: 90%;
+    margin-top: 2%;
+}
+.third img{
+    width: 40%;
+    position: absolute;
+    right: 0px;
+}
+.thirdinfo button{
+    text-align: left;
+    width: 20%;
+    margin-top:35vh;
+}
+
+/* footer */
+footer{
+    top: 290vh;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    font-size: 2vw;
+}
+footer h3{
+    transition: 500ms;
+    cursor: pointer;
+}
+h3:hover{
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.2);
+    
+}
